@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>MonSiteWeb</title>
+    <!-- <meta charset="UTF-8"> -->
+    <meta name="description" content="MonSiteWeb">
+    <meta name="keywords" content="Web23-24">
+    <meta name="author" content="JeromeLoutsch">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/style_CV.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>MonSiteWeb</title>
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+          
+            <nav>
+                
+                <button class="bouton btnNeonNav">Experiences</button>
+                <button class="bouton btnNeonNav">Etudes</button>
+                <button class="bouton btnNeonNav">Technologies</button>
+                <button class="bouton btnNeonNav">Langues</button>
+                <button class="bouton btnNeonNav">Loisirs</button>
+                <button class="bouton btnNeonNav">Close</button>
+
+
+              </nav>
+
+        </div>
+        <div id="contenu">
+
+            <div id="profil"> 
+                <div id="img_profil" ="relative">
+                    <img id="titrecv2" src="./img/Sallecomplet.jpeg" alt="">
+                </div>
+                <div id="titrecv1" ="relative"><b></b>
+                    <div id="titrecv2"></div>
+                </div>
+                <div id="txtprofil" ="static"> 
+                    absolute
+                </div>
+            </div>
+            <div id="exp"> </div>
+
+        </div>
+
+
+      
+    </div>
+</body>
+</html>
+
+<style>
+
+
+
+
+div {
+ /*  padding: 10px; */
+  border: 1px dashed;
+  text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.static {
+  position: static;
+  border-color: #996;
+}
+
+.absolute {
+  position: absolute;
+  border-color: #900;
+}
+
+.relative {
+  position: relative;
+  height: 80px;
+  border-color: #696;
+}
+
+
+#main{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+}
+
+#nav{
+    display: flex;
+    width: 100%;
+    height: 12%;
+    background-color: rgb(246, 255, 0);
+
+}
+
+
+#contenu{
+    display: flex;
+
+    width: 100%;
+    height: 88%;
+    background-color: rgb(81, 0, 255);
+}
+
+#profil{
+    justify-content: center;
+   align-items: center;
+   justify-items: center;
+   text-align: center;
+    width: 20%;
+    height: 80%;
+  /*   padding: 35px 70px 0px 70px;  */
+    background-color: rgb(66, 218, 124);
+}
+
+#img_profil{
+    width: 80%;
+    height: 45%;
+    top: 30px;
+    margin-left: 10px;
+    margin-right: auto;
+    background-color: rgb(0, 0, 0);
+  
+}
+#imgmatete{
+    width: 200px;
+    height: 250px;
+}
+
+#titrecv1{
+    width: 80%;
+    height: 20%;
+    top: 15px;
+    left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background-color: rgb(78, 1, 1);
+}
+#titrecv2{
+    width: 100%;
+    height: 100%;
+    background-color: #996;
+   /*  width: 200px;
+    height: 100%;
+    margin: auto;
+    background-color: #996; */
+}
+
+#txtprofil{
+    display: flex;
+    justify-content: end;
+     top: 100px;
+    width: 80%;
+    height: 30%; 
+    
+    background-color: aliceblue;
+    
+}
+
+.static {
+  position: static;
+  
+}
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+#abs1 {
+  top: 10px;
+  left: 10px;
+}
+
+
+#exp{
+
+    display: flex;
+    width: 80%;
+    height: 90%;
+    background-color: rgb(183, 140, 54)
+}
+
+
+@media (max-width: 500px) { 
+    #nav{
+     display: flex;
+     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height: 100%;
+    
+    }
+
+    .bouton {
+        display: flex;
+        
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        border: none;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-radius: 25px;
+        cursor: pointer;
+        color: white;
+        margin-top: 20px;
+    }
+
+  .btnNeonNav {
+ 
+    justify-content: center;
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    font-weight: 300;
+    
+  }
+  .btnNeonNav:hover {
+    background-color: #070066;
+    color: white;
+  }
+  .btnNeonNav:active {
+    border: solid 2px white;
+    background-color: rgb(35, 54, 175);
+}
+ 
+
+
+}
+
+@media (min-width: 1200px) { 
+    #nav{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 12%;   
+    }
+    
+}
+</style>
+
+<!-- <script>
+
+function modifcssbouton(id){
+        let section = document.getElementById(id);
+        section.classList.add("bckgrd_nav");
+    }
+-->
+</script> 
