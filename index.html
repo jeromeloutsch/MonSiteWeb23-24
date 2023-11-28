@@ -8,133 +8,319 @@
     <meta name="author" content="JeromeLoutsch">
     <!-- <link rel="stylesheet" type="text/css" href="./css/style_CV.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <title>MonSiteWeb</title>
 </head>
 <body>
     <div id="main">
-        <div id="nav">
-          
-            <nav>
-                <h1> test git</h1>
-                <button class="bouton btnNeonNav">Experiences</button>
-                <button class="bouton btnNeonNav">Etudes</button>
-                <button class="bouton btnNeonNav">Technologies</button>
-                <button class="bouton btnNeonNav">Langues</button>
-                <button class="bouton btnNeonNav">Loisirs</button>
-                <button class="bouton btnNeonNav">Close</button>
-
-
-              </nav>
-
+        <div class="navBar">
+            <div id="nav">
+                <a class="card bouton btnNeonNav" href="#Experiences">Experiences</a>
+                <a class="card bouton btnNeonNav" href="#Etudes">Etudes</a>
+                <a class="card bouton btnNeonNav" href="#Technologies">Technologies</a>
+                <a class="card bouton btnNeonNav" href="#Langues">Langues</a>
+                <a class="card bouton btnNeonNav" href="#Loisirs">Loisirs</a>
+<!--                 <a class="card bouton btnNeonNav" href="#profil">Close</a>
+ -->        </div>
         </div>
         <div id="contenu">
 
             <div id="profil"> 
-                <div id="img_profil" ="relative">
-                    <img id="titrecv2" src="./img/Sallecomplet.jpeg" alt="">
+                <div id="img_profil">
+                     <img id="matete" src="./img/moi2.jpg" alt="MOI"> 
                 </div>
-                <div id="titrecv1" ="relative"><b></b>
-                    <div id="titrecv2"></div>
+                <div id="titrecv1">
+                    <h2>Directeur General</h2>
                 </div>
-                <div id="txtprofil" ="static"> 
-                    absolute
+                <div id="txtprofil"> 
+                    <h1> C'est un titre</h1>
+                    <p> Ceci est mon cv, avec mon experience et tout plein de chose j'espere aussi que j'arriverai a finir se cv dans les temps.  </p>
                 </div>
             </div>
-            <div id="exp"> </div>
-
+            <div id="exp">
+                <div id="expInfo">
+                    
+                    <div id="expTitre">
+                        <h2 id="Experiences">Experiences</h2>
+                    </div> 
+                    <div id="expInfoDemi">
+                        <div id="expTitreDev">
+                            <div id="expDescriptionDev">
+                                <h3> Helpdesk</h3>
+                            </div>
+                            <div id="dateExp">
+                                <p>2020-2022</p>
+                            </div>
+                        </div>
+                        <div id="expTitreDev2"> 
+                            <ul>
+                                <li>Liste 1</li>
+                                <li>Liste 2</li>
+                                <li>Liste 3</li>
+                                <li>Liste 4</li>
+                                <li>Liste 5</li>
+                                <li>Liste 6</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="expInfoDemi">
+                        <div id="expTitreDev">
+                            <div id="expDescriptionDev">
+                                <h3> Titre1</h3>
+                            </div>
+                            <div id="dateExp">
+                                <p>Date</p>
+                            </div>
+                        </div>
+                        <div id="expTitreDev2"> 
+                            <ul>
+                                <li>Liste 11</li>
+                                <li>Liste 22</li>
+                                <li>Liste 33</li>
+                                <li>Liste 44</li>
+                                <li>Liste 55</li>
+                                <li>Liste 66</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="expInfo">
+                    
+                    <div id="expTitre">
+                        <h2 id="Etudes">Etudes</h2>
+                    </div> 
+                    <div id="expInfoDemi">
+                        <div id="expTitreDev">
+                            <div id="expDescriptionDev">
+                                <h3>IEPSA</h3>
+                            </div>
+                            <div id="dateExp">
+                                <p>2023-2024</p>
+                            </div>
+                        </div>
+                        <div id="expTitreDev2"> 
+                            <ul>
+                                <li>Liste 1A</li>
+                                <li>Liste 2B</li>
+                                <li>Liste 3C</li>
+                                <li>Liste 4D</li>
+                                <li>Liste 5E</li>
+                                <li>Liste 6H</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="expInfoDemi">
+                        <div id="expTitreDev">
+                            <div id="expDescriptionDev">
+                                <h3> ITELA</h3>
+                            </div>
+                            <div id="dateExp">
+                                <p>2015-2017</p>
+                            </div>
+                        </div>
+                        <div id="expTitreDev2"> 
+                            <ul>
+                                <li>Liste 10</li>
+                                <li>Liste 20</li>
+                                <li>Liste 30</li>
+                                <li>Liste 40</li>
+                                <li>Liste 50</li>
+                                <li>Liste 60</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="expTech">
+                    <div id="techTitre">
+                        <h2 id="Technologies">Technologies</h2>
+                    </div>
+                    <div id="Tech">
+                        <div class="carteTech">
+                            <div id="demiCart"> 
+                                <div id="cartIco"> 
+                                    <img id="jsIco" src="./img/js.jpg" alt="ico_js">
+                                </div>
+                            </div>
+                            <div id="demiCart"> 
+                                <div id="txtTech">
+                                    <p> Javascript</p>
+                                </div>
+                                <div id="barTech">
+                                    <!-- <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div> -->
+                                    <!-- <div class="progress" style="width: 40%"></div> -->
+                                    <progress value="70" max="100" >70 %</progress> 
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carteTech">
+                            <div id="demiCart"> 
+                                <div id="cartIco"> 
+                                    <img id="jsIco" src="./img/js.jpg" alt="ico_js">
+                                </div>
+                            </div>
+                            <div id="demiCart"> 
+                                <div id="txtTech">
+                                    <p> Web</p>
+                                </div>
+                                <div id="barTech">
+                                    <progress value="80" max="100" >70 %</progress> 
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carteTech">
+                            <div id="demiCart"> 
+                                <div id="cartIco"> 
+                                    <img id="jsIco" src="./img/js.jpg" alt="ico_js">
+                                </div>
+                            </div>
+                            <div id="demiCart"> 
+                                <div id="txtTech">
+                                    <p> C </p>
+                                </div>
+                                <div id="barTech">
+                                    <progress value="30" max="100" >70 %</progress> 
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carteTech">
+                            <div id="demiCart"> 
+                                <div id="cartIco"> 
+                                    <img id="jsIco" src="./img/js.jpg" alt="ico_js">
+                                </div>
+                            </div>
+                            <div id="demiCart"> 
+                                <div id="txtTech">
+                                    <p> SQL </p>
+                                </div>
+                                <div id="barTech">
+                                    <progress value="50" max="100" >70 %</progress> 
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carteTech">
+                            <div id="demiCart"> 
+                                <div id="cartIco"> 
+                                    <img id="jsIco" src="./img/js.jpg" alt="ico_js">
+                                </div>
+                            </div>
+                            <div id="demiCart"> 
+                                <div id="txtTech">
+                                    <p> Phyton </p>
+                                </div>
+                                <div id="barTech">
+                                    <progress value="5" max="100" >70 %</progress> 
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carteTech">
+                            <div id="demiCart"> 
+                                <div id="cartIco"> 
+                                    <img id="jsIco" src="./img/js.jpg" alt="ico_js">
+                                </div>
+                            </div>
+                            <div id="demiCart"> 
+                                <div id="txtTech">
+                                    <p> Java </p>
+                                </div>
+                                <div id="barTech">
+                                    <progress value="75" max="100" >70 %</progress> 
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carteTech">
+                            <div id="demiCart"> 
+                                <div id="cartIco"> 
+                                    <img id="jsIco" src="./img/js.jpg" alt="ico_js">
+                                </div>
+                            </div>
+                            <div id="demiCart"> 
+                                <div id="txtTech">
+                                    <p> System </p>
+                                </div>
+                                <div id="barTech">
+                                    <progress value="80" max="100" >70 %</progress> 
+                              </div>
+                            </div>
+                        </div>
+                        
+                    </div>                    
+                </div>
+                <div id="expTech">
+                    <div id="techTitre">
+                        <h2 id="Langues">Langues</h2>
+                    </div>
+                    <div id="Tech">
+                        <div class="carteTech">
+                            <div id="demiCart"> 
+                                <div id="cartIco"> 
+                                    <img id="jsIco" src="./img/js.jpg" alt="ico_js">
+                                </div>
+                            </div>
+                            <div id="demiCart"> 
+                                <div id="txtTech">
+                                    <p> Francais </p>
+                                </div>
+                                <div id="barTech">
+                                    <progress value="90" max="100" >90 %</progress> 
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carteTech">
+                            <div id="demiCart"> 
+                                <div id="cartIco"> 
+                                    <img id="jsIco" src="./img/js.jpg" alt="ico_js">
+                                </div>
+                            </div>
+                            <div id="demiCart"> 
+                                <div id="txtTech">
+                                    <p> Anglais </p>
+                                </div>
+                                <div id="barTech">
+                                    <progress value="60" max="100" >60 %</progress> 
+                              </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <div id="expTech">
+                    <div id="techTitre">
+                        <h2 id="Loisirs">Loisirs</h2>
+                    </div>
+                    <div id="Tech">
+                        <div class="carteTech" style="height: 210px;">
+                            <div id="LoiCart"> 
+                                <div id="cartIco"> 
+                                    <img id="jsIco" src="./img/js.jpg" alt="ico_js">
+                                </div>
+                            </div>
+                            <div id="LoiCart2"> 
+                                <div id="txtLoi">
+                                    <p> Foot </p>
+                                </div>
+                            </div>
+                        </div>
+                                              
+                    </div>
+                </div>
+            </div> 
         </div>
-
-
-      
     </div>
 </body>
 </html>
 
 <style>
 
-
-
-
-div {
- /*  padding: 10px; */
-  border: 1px dashed;
-  text-align: center;
-}
-body{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+p{
+    margin-bottom: 0;
 }
 
-.static {
-  position: static;
-  border-color: #996;
-}
-
-.absolute {
-  position: absolute;
-  border-color: #900;
-}
-
-.relative {
-  position: relative;
-  height: 80px;
-  border-color: #696;
-}
-
-
-#main{
-    display: flex; 
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100vh;
-    background-color: brown;
-}
-
-#nav{
-    display: flex;
-    width: 100%;
-    height: 12%;
-    background-color: rgb(246, 255, 0);
-
-}
-
-
-#contenu{
-    display: flex;
-
-    width: 100%;
-    height: 88%;
-    background-color: rgb(81, 0, 255);
-}
-
-#profil{
-    justify-content: center;
-   align-items: center;
-   justify-items: center;
-   text-align: center;
-    width: 20%;
-    height: 80%;
-  /*   padding: 35px 70px 0px 70px;  */
-    background-color: rgb(66, 218, 124);
-}
-
-#img_profil{
-    width: 80%;
-    height: 45%;
-    top: 30px;
-    margin-left: 10px;
-    margin-right: auto;
-    background-color: rgb(0, 0, 0);
-  
-}
-#imgmatete{
-    width: 200px;
-    height: 250px;
-}
-
+/* 
 #titrecv1{
+    position: relative;
+    z-index: 5;
     width: 80%;
     height: 20%;
     top: 15px;
@@ -148,62 +334,115 @@ body{
     width: 100%;
     height: 100%;
     background-color: #996;
-   /*  width: 200px;
+    width: 200px;
     height: 100%;
     margin: auto;
-    background-color: #996; */
+    background-color: #996; 
 }
-
 #txtprofil{
     display: flex;
     justify-content: end;
-     top: 100px;
+    top: 100px;
     width: 80%;
     height: 30%; 
-    
-    background-color: aliceblue;
-    
+    background-color: aliceblue;   
 }
-
-.static {
-  position: static;
-  
-}
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
-#abs1 {
-  top: 10px;
-  left: 10px;
-}
-
-
 #exp{
-
     display: flex;
-    width: 80%;
     height: 90%;
     background-color: rgb(183, 140, 54)
 }
+*/
 
-
-@media (max-width: 500px) { 
-    #nav{
-     display: flex;
-     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    width: 100%;
-    height: 100%;
+/* @media (min-height: 500px) and (max-height: 1200px) { */
     
-    }
 
+
+
+
+@media screen and (max-width: 600px) {
+  
+
+  /* nav-1 */
+  #misc {
+    all: unset;
+    display: inline-block;
+    padding: 6px 6px 0 6px;
+    margin: 0 4px;
+    height: 50px;
+    width: 120px;
+    text-transform: uppercase;
+    color: #9db5f2;
+    background-color: #A6A4A5;
+    text-align: left;
+    cursor: pointer;
+   /*  border-top: #4a67b1 3px solid;
+    border-left: #32467a 3px solid;
+    border-bottom: rgb(25, 35, 61) 1px solid;
+    border-right: none; */
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    right: -100px;
+    transition: 0.5s;
+  }
+
+  #misc:hover {
+   
+    right: -25px;
+    transition: 0.5s;
+  }
+
+  #misc.active,
+  #misc:active {
+    background-color: #A6A4A5;
+    text-align: left;
+  }
+
+  #misc > strong {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  #misc > small {
+    font-size: 12px;
+    font-weight: 400;
+    color: #587ad1;
+  }
+
+
+/*-----------------------------------*/    
+    
+    
+    /* #menuBurger{
+        position: fixed;
+        width: 20px;
+        height: 20px;
+        top: 0;
+        left: 0;
+        background-color: red;
+    } */
+    #main{
+        overflow:hidden; 
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+        background-color: brown;
+    }
+    #nav{
+        overflow-y: hidden; 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+
+        width: 100%;
+        height: 100%;
+        background-color: #A6A4A5 ;
+    }
     .bouton {
         display: flex;
         
@@ -217,10 +456,9 @@ body{
         border-radius: 25px;
         cursor: pointer;
         color: white;
-        margin-top: 20px;
+        margin-top: 30px;
     }
-
-  .btnNeonNav {
+    .btnNeonNav {
  
     justify-content: center;
     background-color: transparent;
@@ -228,36 +466,747 @@ body{
     border: none;
     font-weight: 300;
     
-  }
-  .btnNeonNav:hover {
+    }
+    .btnNeonNav:hover {
     background-color: #070066;
     color: white;
-  }
-  .btnNeonNav:active {
+    }
+    .btnNeonNav:active {
     border: solid 2px white;
     background-color: rgb(35, 54, 175);
-}
- 
+    }
+/* ---------------------------------------- */
 
-
-}
-
-@media (min-width: 1200px) { 
-    #nav{
-        display: flex;
-        flex-direction: row;
+    #contenu{
+       /*  display: flex;
+        flex-wrap: wrap; */
         width: 100%;
-        height: 12%;   
+        height: 100%;
+        background-color: rgb(81, 0, 255);
+    }
+
+/*---------------------------------------*/
+    #profil{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(66, 218, 124);
+    }
+    #img_profil{
+        width: 100%;
+        height: 80%;
+        background-color: rgb(0, 0, 0);
+    }
+    #matete{
+        width: 100%;
+        height: 100%;
+          
+    }
+    #titrecv1{
+        width: 100%;
+        height: 5%;
+        background-color: #313131;
+       /*  align-items: center; */
+        justify-items: center;
+        text-align: center;
+        color: #D5E0E6;
+    }
+    #txtprofil{
+        width: 100%;
+        height: 15%;
+        align-items: center;
+        justify-items: center;
+        text-align: center;  
+        /* background-color: #D5E0E6; */
+        color: #313131; 
+    }
+    #exp{
+        width: 100%;
+        height: 940px;
+    } 
+    #expInfo{
+        width: 100%;
+        height: 50%;
+        background-color: violet;
+    }
+    #expTitre{
+        width: 100%;
+        height: 15%;
+        background-color: cadetblue;
+    }
+    #expInfoDemi{
+        width: 100%;
+    }
+
+}
+@media (min-width: 600px) and (max-width: 1200px) { 
+ 
+    #nav{
+        /* position: fixed; */
+        display: flex;  
+        width: 100%;
+        height: 12%;
+        background-color:#A6A4A5;  
+    }
+    .card {
+        padding: 16px 32px; 
+        transition: 0.5s;
+        position: relative;
+        width: 10%;
+        height: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around ;
+        
+    }
+    .card::before {
+        position: absolute; 
+        border-top: solid black 4px;
+        border-left: solid black 4px;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        content: "";
+        transition: 1s;
+        background-color: transparent;
+    }
+    .card::after {
+        position: absolute;
+        border-bottom: solid black 4px;
+        border-right: solid black 4px;
+        bottom: 0;
+        right: 0;
+        width: 20px;
+        height: 20px;
+        content: "";
+        transition: 1s; 
+        background-color: transparent;
+    }    
+    .card:active{
+        background-color: #c0c0c0;
+    }
+    .card:hover::before,
+    .card:hover::after {
+        transition: 0.5s;
+        height: 50%;
+        width: 50%;
+    }
+     #main{
+        
+        width: 100%;
+        height: 100vh;
+        background-color: brown;
+    }/*
+    #contenu{
+        
+        width: 100%;
+        height: 100%;
+        background-color: rgb(81, 0, 255);
+    } */
+    #matete{
+        width: 100%;
+        height: 100%;
+    } 
+
+    #profil{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        width: 100%;
+        height: 45%;
+        background-color: #383F49;
+    }
+    #img_profil{
+         
+        width: 40% ;
+        height: 100%;
+        background-color: black;
+
+    }    
+    #titrecv1{
+        /* DG */
+        
+        width: 60%;
+        height: 40%;
+        background-color: #313131;
+        text-align: center;
+        color: #D5E0E6;
+    }
+    #txtprofil{
+        
+        width: 40%;
+        height: 30%;
+        background-color: #D5E0E6;
+    }
+    /*------------------------------------------*/
+    #exp {
+        display: flex; 
+        flex-wrap: wrap;
+        width: 100%; 
+        background-color: rgb(183, 140, 54);
+    
+
+    }
+    #expInfo{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;  
+        width: 100%;
+/*         height: 300px;
+ */       
+        background-color: blueviolet;
+    }
+    #expInfoDemi{
+        display: flex;
+        flex-wrap: wrap; 
+        flex-direction: column;
+        width: 100%;
+        /* height: 50%; */
+        background-color: aqua;
+    }  
+    #expTitre{
+        display: flex;
+        width: 100%;
+        text-align: start;
+        font-size: 25px;
+    }
+    #expTitre > H2{
+        text-decoration: underline;
+    }
+    #expTitreDev{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        height: 20%;
+      /*  background-color: cadetblue; */
     }
     
+    #expTitreDev2{
+        display: flex;
+        width: 100%;
+        height: 80%;
+        align-items: center;
+        margin-left: 10px;
+        /* background-color: red; */
+    }
+    #expDescriptionDev{
+        display: flex;
+        width: 75%;
+        height: 100%;
+        align-items: center;
+        /* background-color: #070066; */
+    } 
+    #expDescriptionDev > h3{
+        margin-left: 10px;
+        background-color: cadetblue;
+    }
+    #dateExp{
+        display: flex;
+        width: 25%;
+        height: 100%;
+        background-color: burlywood;
+       /*  text-decoration-color: burlywood; */
+        align-items: center;
+        justify-content: center;
+    }
+    #dateExp > p{
+        background-color: white;
+    }
+
+    #expTech{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;  
+        width: 100%;
+        /* height: 500px; */
+
+        background-color:deeppink;
+    
+    }
+     #techTitre{
+        display: flex;
+        width: 100%;
+        height: 50px;
+        text-align: start;
+        font-size: 25px;
+    }
+    #Tech{
+        display: flex;
+        flex-wrap: wrap; 
+        flex-direction: row;
+        width: 100%;
+        /* height: 100%; */
+        background-color: darkolivegreen;
+        justify-content: start; 
+    }
+   
+    .carteTech{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 280px;
+        width: 230px;
+        margin: 18px;
+        background-color: red;
+    }
+    #demiCart{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+
+    }
+    #cartIco{
+        display: flex;
+        width: 100px;
+        height: 100px;
+        background-color: black;
+    } 
+    #jsIco{
+        width: 100%;
+        height: 100%;
+    }
+    #txtTech{
+        display: flex;
+        width: 100%;
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+        background-color: white ;
+    }
+    #barTech{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        width: 100%;
+        height: 50%;
+        background-color: aquamarine; 
+    }
+    #LoiCart{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 70%;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+
+    }
+    #LoiCart2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 30%;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+
+    }
+    #txtLoi{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: white ;
+
+    }
+    
+
+
+} 
+@media (min-width: 1200px) { 
+    .navBar{
+        position: fixed;
+        width: 100%;
+        height: 100px;
+    }
+    #nav{
+        /* position: fixed; */
+        display: flex;  
+        width: 100%;
+        height: 100%;
+      /*   background-color:#A6A4A5;   */
+    }
+    .card {
+        padding: 16px 32px; 
+        transition: 0.5s;
+        position: relative;
+        width: 10%;
+        height: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around ;
+    }
+    .card::before {
+        position: absolute; 
+        border-top: solid black 4px;
+        border-left: solid black 4px;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        content: "";
+        transition: 1s;
+        background-color: transparent;
+    }
+    .card::after {
+        position: absolute;
+        border-bottom: solid black 4px;
+        border-right: solid black 4px;
+        bottom: 0;
+        right: 0;
+        width: 20px;
+        height: 20px;
+        content: "";
+        transition: 1s; 
+        background-color: transparent;
+    }    
+    .card:active{
+        background-color: #c0c0c0;
+    }
+    .card:hover::before,
+    .card:hover::after {
+        transition: 0.5s;
+        height: 50%;
+        width: 50%;
+    }
+/* ---------------------------------------- */
+    div {
+        border: 1px dashed;
+        /* text-align: center; */
+    }
+   /*  body{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    } */
+    #main{
+        /* display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap; */
+        
+        width: 100%;
+        height: 100vh;
+        background-color: brown;
+    }
+    #contenu{
+       /*  position: absolute; */
+        display: flex;
+        flex-wrap: wrap; 
+        margin-top: 100px;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(81, 0, 255);
+    }
+    #matete{
+        width: 100%;
+        height: 100%;
+    } 
+/* ---------------------------------------- */
+    #profil{
+        position: fixed;
+        
+        width: 500px;
+        height: 650px;
+        background-color: #383F49;
+    }
+    #img_profil{
+        position: relative;
+       /*  z-index: 2; */
+        top: 50px ;
+        left: 140px;
+        width: 220px;
+        height: 320px;
+        background-color: rgb(0, 0, 0);
+    }
+    #titrecv1{
+        position: relative;
+        /* z-index: 5; */
+        width: 230px;
+        height: 80px;
+        top: 10px;
+        left: 160px;
+        background-color: #313131;
+        text-align: center;
+        color: #D5E0E6;
+    }
+    #txtprofil{
+        position: relative;
+        width: 400px;
+        height: 150px;
+        top: 50px;
+        bottom: 0px;
+        left: 50px;
+        background-color: #D5E0E6;
+        text-align: center;        
+        color: #313131; 
+    }
+    /*------------------------------------------*/
+    #exp {
+         display: flex; 
+        flex-wrap: wrap; 
+        /* float: fight; */
+       /*  margin-right: 0; */
+       /*  width: 100%; /* Prend toute la largeur disponible */    
+            /*order: 1; /* j'ai mis un ordre pour que ta section exp soit en dessous de profil */ 
+        /* height: 1500px; */
+        
+      margin-top: auto;
+        width: 100%;
+        
+        margin-left: 500px;
+        background-color: rgb(183, 140, 54);
+    
+
+    }
+    #expInfo{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;  
+        width: 100%;
+        height: 300px;
+       
+        background-color: blueviolet;
+    }
+    #expInfoDemi{
+        display: flex;
+        flex-wrap: wrap; 
+        flex-direction: column;
+        width: 50%;
+        height: 85%;
+        background-color: aqua;
+    }  
+    #expTitre{
+        display: flex;
+        width: 100%;
+        /* height: 15%; */
+        text-align: start;
+        font-size: 25px;
+       /*  background-color: #000000; */
+    }
+    #expTitre > H2{
+        text-decoration: underline;
+    }
+    #expTitreDev{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        /* height: 20%; */
+       /*  background-color: cadetblue; */
+    }
+    #expTitreDev2{
+        display: flex;
+        width: 100%;
+        /* height: 80%; */
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    #expDescriptionDev{
+        display: flex;
+        width: 75%;
+        height: 100%;
+        align-items: center;
+    } 
+    #dateExp{
+        display: flex;
+        width: 25%;
+        height: 100%;
+        background-color: burlywood;
+       /*  text-decoration-color: burlywood; */
+        align-items: center;
+        justify-content: center;
+    }
+    #dateExp > p{
+        background-color: white;
+    }
+
+    #expTech{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;  
+        width: 100%;
+        /* height: 500px; */
+
+        background-color:deeppink;
+    
+    }
+     #techTitre{
+        display: flex;
+        width: 100%;
+        height: 50px;
+        text-align: start;
+        font-size: 25px;
+    }
+    #Tech{
+        display: flex;
+        flex-wrap: wrap; 
+        flex-direction: row;
+        width: 100%;
+        /* height: 100%; */
+        background-color: darkolivegreen;
+        justify-content: start; 
+    }
+   
+    .carteTech{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 280px;
+        width: 230px;
+        margin: 18px;
+        background-color: red;
+    }
+    #demiCart{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+
+    }
+    #cartIco{
+        display: flex;
+        width: 100px;
+        height: 100px;
+        background-color: black;
+    } 
+    #jsIco{
+        width: 100%;
+        height: 100%;
+    }
+    #txtTech{
+        display: flex;
+        width: 100%;
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+        background-color: white ;
+    }
+    #barTech{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        width: 100%;
+        height: 50%;
+        background-color: aquamarine; 
+    }
+    
+    /* progress {
+        -webkit-appearance: none;
+    }
+
+    ::-webkit-progress-value {
+        background-color: orange;
+    } */
+    /* .progress {
+      height: 20px;
+      border-radius: 10px;
+      background-color: #4CAF50;
+    } */
+   
+    
+    #LoiCart{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 70%;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+
+    }
+    #LoiCart2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 30%;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+
+    }
+    #txtLoi{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: white ;
+
+    }
+    
+    
+   
 }
 </style>
 
 <!-- <script>
 
+function displayPopUp() {
+    const popup = document.getElementById("the-pop-up");
+    popup.style.display = "flex";
+  }
+  function hidePopUp() {
+    const popup = document.getElementById("the-pop-up");
+    popup.style.display = "none";
+  }
+
+  const canvas = document.getElementById("canv");
+  const ctx = canvas.getContext("2d");
+
+  const w = (canvas.width = document.body.offsetWidth);
+  const h = (canvas.height = document.body.offsetHeight);
+  const cols = Math.floor(w / 20) + 1;
+  const ypos = Array(cols).fill(0);
+
+  ctx.fillStyle = "#000";
+  ctx.fillRect(0, 0, w, h);
+
+  function matrix() {
+    ctx.fillStyle = "#0001";
+    ctx.fillRect(0, 0, w, h);
+
+    ctx.fillStyle = "#0f0";
+    ctx.font = "15pt monospace";
+
+    ypos.forEach((y, ind) => {
+      const text = String.fromCharCode(Math.random() * 128);
+      const x = ind * 20;
+      ctx.fillText(text, x, y);
+      if (y > 100 + Math.random() * 10000) ypos[ind] = 0;
+      else ypos[ind] = y + 20;
+    });
+  }
+
+  setInterval(matrix, 50);
+
+ <script>
+
 function modifcssbouton(id){
         let section = document.getElementById(id);
         section.classList.add("bckgrd_nav");
     }
--->
-</script> 
+
+</script> -->
