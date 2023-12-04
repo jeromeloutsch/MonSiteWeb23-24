@@ -29,7 +29,7 @@
 
             <div id="profil"> 
                
-                <div id="test">
+                <div id="divProfil">
                     <div id="img_profil">
                         <img id="matete" src="./img/moi2.jpg" alt="">
                     </div>
@@ -329,28 +329,27 @@
 <style>
 @media (max-width: 600px) {
     #main{
-          /* overflow:hidden;  */
-          display: flex; 
-          flex-direction: row;
-          flex-wrap: wrap;
-          width: 100%;
-          height: 100vh;
-          background-color: brown;
-}
+        /* overflow:hidden;  */
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+        background-color: brown;
+    }
     #nav{
         overflow-y:hidden ; 
-     display: flex;
-     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    width: 100%;
-    height: 100%;
-    background-color: #A6A4A5 ;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        width: 100%;
+        height: 100%;
+        background-color: #A6A4A5 ;
     }
     .bouton {
-        display: flex;
-        
+        display: flex;  
         align-items: center;
         height: 100px;
         width: 100%;
@@ -363,41 +362,36 @@
         color: white;
         margin-top: 20px;
     }
-
-  .btnNeonNav {
- 
-    justify-content: center;
-    background-color: transparent;
-    color: #000000;
-    border: none;
-    font-weight: 300;
-    
-  }
-  .btnNeonNav:hover {
-    background-color: #070066;
-    color: white;
-  }
-  .btnNeonNav:active {
-    border: solid 2px white;
-    background-color: rgb(35, 54, 175);
-}
-
-/* ---------------------------------*/
-#contenu{
-         /*  display: flex;
-          flex-wrap: wrap; */
-          width: 100%;
-          height: 100%;
-          background-color: rgb(81, 0, 255);
-      }
-  
-  /*---------------------------------------*/
+    .btnNeonNav {
+        justify-content: center;
+        background-color: transparent;
+        color: #000000;
+        border: none;
+        font-weight: 300;
+    }
+    .btnNeonNav:hover {
+        background-color: #070066;
+        color: white;
+    }
+    .btnNeonNav:active {
+        border: solid 2px white;
+        background-color: rgb(35, 54, 175);
+    }
+    /* ---------------------------------*/
+    #contenu{
+        /*  display: flex;
+        flex-wrap: wrap; */
+        width: 100%;
+        height: 100%;
+        background-color: rgb(81, 0, 255);
+    }
+    /*---------------------------------------*/
     #profil{
         display: flex;
         width: 100%;
         height: 100vh;
-    }
-    #test{
+        }
+    #divProfil{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -406,78 +400,74 @@
         width: 100%;
         height: 100%;
         background-color: rgb(66, 218, 124);
-      }
-      #img_profil{
-          width: 100%;
-          height: 75%;
-          background-color: rgb(0, 0, 0);
-      }
-      #matete{
-          width: 100%;
-          height: 100%;
-            
-      }
-      #titrecv{
-          width: 100%;
-          height: 10%;
-          background-color: #313131;
-         /*  align-items: center; */
-          justify-items: center;
-          text-align: center;
-          color: #D5E0E6;
-          
-      }
-      #txtprofil{
-          width: 100%;
-          height: 15%;
-          align-items: center;
-          justify-items: center;
-          text-align: start;  
-          background-color: #D5E0E6;
-          color: #313131; 
-      }
-      #txtprofil > h1{
+    }
+    #img_profil{
+        width: 100%;
+        height: 75%;
+        background-color: rgb(0, 0, 0);
+    }
+    #matete{
+        width: 100%;
+        height: 100%;
+    }
+    #titrecv{
+        width: 100%;
+        height: 10%;
+        background-color: #313131;
+        /*  align-items: center; */
+        justify-items: center;
+        text-align: center;
+        color: #D5E0E6;
+    }
+    #txtprofil{
+        width: 100%;
+        height: 15%;
+        align-items: center;
+        justify-items: center;
+        text-align: start;  
+        background-color: #D5E0E6;
+        color: #313131; 
+    }
+    #txtprofil > h1{
         font-size: medium;
         text-align: start; 
-      }
+    }
     #exp{
         width: 100%;
-    }  
-    
-      #expInfo{
-          width: 100%;
-          height: 100%;
-          background-color: violet;
-       
-      }
-      .expTitre{
+    }   
+    #expInfo{
+        display: flex;
+        flex-wrap: wrap;
+        
+        width: 100%;
+        height: 100%;
+        background-color: violet; 
+    }
+    .expTitre{
         display: flex;
         width: 100%;
-        height: 70px ;
+       /*  height: 70px ; */
         background-color: cadetblue;
-      }
-      .expTitre > H2{
+    }
+    .expTitre > H2{
         margin-top: auto;
         margin-bottom: auto;
         text-decoration: underline;
     }
-     ul{
-        margin: 0;
-        
-    } 
     #expInfoDemi{
         width: 100%;
-        height: 100%;  
+        /* height: 100%;   */
         justify-content:  center;
         align-items: center;
     }
     #expDev{
         width: 100%;  
-        
     }
     #expDescriptionDev > h3{
+        margin-top: auto;
+        margin-bottom: auto;
         background-color: #587ad1; 
-        margin-bottom: 0;
+        margin: 0;
     }
     #expDev2{
         justify-content:  center;
@@ -486,33 +476,26 @@
         /* background-color: #313131; */
     }
     #dateExp{
-        margin-top: 0;
+        /* margin: 0; */
         width: 100%;
         /* height: 100%; */
         background-color: white;
     }
     #dateExp > p {
-        margin-top: 0;
+        margin: 0;
     }
     #expTech{
-        
         width: 100%;
         /* height: 500px; */
         background-color:deeppink;
         justify-content: center;
     }
-    /* .techTitre{
-        width: 100%;
-        height: 70px ;
-        text-align: start;
-        font-size: 25px;
-    } */
     .techTitre{
         display: flex;
         width: 100%;
         height: 70px ;
         /* background-color: cadetblue; */
-      }
+    }
     .techTitre > H2{
         margin-top: auto;
         margin-bottom: auto;
@@ -523,11 +506,9 @@
         flex-wrap: wrap;
         flex-direction: row;
         width: 100%;
-        
         /* height: 100%; */
         background-color: darkolivegreen;
         justify-content: start; 
-        
     }
     .carteTech{
         display: flex;
@@ -549,10 +530,8 @@
         justify-content: center;
         align-items: center;
         background-color: yellow;
-
     }
-    #cartIco{
-        
+    #cartIco{      
         width: 35px;
         height: 35px;
         background-color: black;
@@ -572,10 +551,7 @@
         justify-content: center; 
         width: 75%;
         height: 50%;
-        
-    }    
- 
-    
+    }      
     #LoiCart{
         display: flex;
         flex-wrap: wrap;
@@ -584,7 +560,6 @@
         justify-content: center;
         align-items: center;
         background-color: yellow;
-
     }
     #LoiCart2{
         display: flex;
@@ -594,7 +569,6 @@
         justify-content: center;
         align-items: center;
         background-color: grey;
-
     }
     #txtLoi{
         display: flex;
@@ -603,15 +577,360 @@
         align-items: center;
         justify-content: center;
         background-color: white ;
-
     }   
-      
-  
 }
-/* ---------------------------------*/
 
 
+@media (min-width: 600px)  and (max-width: 1200px) { 
+    div > h2{
+    text-decoration: underline;
+   } 
+p{
+    margin: 0;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
 
+#main{
+    /* display: flex; 
+    flex-direction: roW;
+    flex-wrap: wrap; */
+    width: 100%;
+   /*  height: 100vh; */
+    background-color: brown;
+}
+
+#nav{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    /* height: 80px; */
+    background-color: #A6A4A5;
+}
+
+.card {
+    padding: 10px 15px; 
+    transition: 0.5s;
+    position: relative;
+    width: 10%;
+    height: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    color: black;
+    font-size: 16px;
+    text-decoration: underline;
+    background-color: white;
+}
+
+     .card::before {
+         position: absolute; 
+         border-top: solid black 4px;
+         border-left: solid black 4px;
+         top: 0;
+         left: 0;
+         width: 20px;
+         height: 20px;
+         content: "";
+         transition: 1s;
+         background-color: transparent;
+     }
+     .card::after {
+         position: absolute;
+         border-bottom: solid black 4px;
+         border-right: solid black 4px;
+         bottom: 0;
+         right: 0;
+         width: 20px;
+         height: 20px;
+         content: "";
+         transition: 1s;
+         background-color: transparent;
+     }    
+     .card:active{
+         background-color: #c0c0c0;
+     }
+     .card:hover::before,
+     .card:hover::after {
+         transition: 0.5s;
+         height: 50%;
+         width: 50%;
+     }
+/* ---------------------------------- */
+#contenu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(81, 0, 255);
+}
+/* ---------------------------------- */
+ #matete{
+     width: 100%;
+     height: 100%;
+ } 
+ 
+
+ #profil{
+     display: flex;
+    
+     width: 100%;
+     height: 100%;
+     background-color: white;
+ }
+ #divProfil{
+    display: flex;
+     flex-wrap: wrap-reverse;
+     flex-direction: column-reverse;
+     width: 100%;
+    
+    height: 100%;
+    border: solid 4px #000000;
+    
+
+    /* A supprimer 
+    
+     background-color: white;
+
+     justify-content: center;
+     align-items: center;
+     text-align: center;*/
+ }
+ #img_profil{
+     
+     
+     height: 100%;
+     /* background-color: black; */
+    
+      border-left: solid 4px black; 
+ }    
+ #titrecv{
+     /* DG */
+     display: flex;
+     /* width: 60%; */
+     height: 40%;
+     background-color: #313131;
+     color: #D5E0E6;
+     font-size:x-large;
+     justify-content: center;
+     align-items: center;  
+        
+ }
+ #txtprofil{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    /*  align-items: start; */
+     text-align: start;
+     /* width: 50%; */
+     flex-grow: 1;
+     background-color: #D5E0E6; 
+ }
+#txtprofil > h1 {
+    text-align: center;
+    align-items: center;
+ } 
+ /*------------------------------------------*/
+ #exp{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 1 ;
+    height: 100%;
+    background-color: rgb(183, 140, 54)
+}
+ #exp2{
+    background-color: #900;
+    width: 100%;
+    height: 3000px;
+} 
+
+
+#expInfo{
+     display: flex;
+    flex-wrap: wrap;  
+    /*flex-direction: row;   */
+    width: 100%;
+    /* height: 300px; */
+    background-color: blueviolet;
+}
+
+ #expInfoDemi{
+     display: flex;
+     flex-wrap: wrap; 
+     flex-direction: column;
+     width: 100%;
+     /* height: 50%; */
+     background-color: aqua;
+ }  
+ #expTitre{
+     display: flex;
+     width: 100%;
+     text-align: start;
+     font-size: 25px;
+ }
+ #expTitre > H2{
+     text-decoration: underline;
+ }
+ #expDev{
+     display: flex;
+     flex-wrap: wrap;
+     /* flex-direction: column; */
+     width: 100%;
+     height: 20%;
+   /*  background-color: cadetblue; */
+ }
+ 
+ #expDev2{
+     display: flex;
+     width: 100%;
+     height: 80%;
+     align-items: center;
+     margin-left: 10px;
+     background-color: red;
+ }
+ #expDescriptionDev{
+     display: flex;
+     width: 75%;
+     height: 100%;
+     margin: 0;
+     /* align-items: center; */
+     /* background-color: #070066; */
+ } 
+ #expDescriptionDev > h3{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    background-color: cadetblue;
+ }
+ #dateExp{
+     display: flex;
+     width: 25%;
+     /* height: 100%; */
+     background-color: burlywood;
+    /*  text-decoration-color: burlywood; */
+     align-items: center;
+     justify-content: center;
+ }
+ #dateExp > p{
+     background-color: white;
+ }
+
+ #expTech{
+     display: flex;
+     flex-direction: row; 
+     flex-wrap: wrap;  
+     width: 100%;
+     /* height: 500px; */
+
+     background-color:deeppink;
+ 
+ }
+  #techTitre{
+     display: flex;
+     width: 100%;
+     height: 50px;
+     text-align: start;
+     font-size: 25px;
+ }
+ #Tech{
+     display: flex;
+     flex-wrap: wrap; 
+     flex-direction: row;
+     width: 100%;
+     /* height: 100%; */
+     background-color: darkolivegreen;
+     justify-content: start; 
+ }
+
+ .carteTech{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     height: 280px;
+     width: 230px;
+     margin: 18px;
+     background-color: red;
+ }
+ #demiCart{
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     height: 50%;
+     justify-content: center;
+     align-items: center;
+     background-color: yellow;
+
+ }
+ #cartIco{
+     display: flex;
+     width: 100px;
+     height: 100px;
+     background-color: black;
+ } 
+ #jsIco{
+     width: 100%;
+     height: 100%;
+ }
+ #txtTech{
+     display: flex;
+     width: 100%;
+     height: 50%;
+     align-items: center;
+     justify-content: center;
+     background-color: white ;
+ }
+ #barTech{
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+     width: 100%;
+     height: 50%;
+     background-color: aquamarine; 
+ }
+ #LoiCart{
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     height: 70%;
+     justify-content: center;
+     align-items: center;
+     background-color: yellow;
+
+ }
+ #LoiCart2{
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     height: 30%;
+     justify-content: center;
+     align-items: center;
+     background-color: grey;
+
+ }
+ #txtLoi{
+     display: flex;
+     width: 100%;
+     height: 100%;
+     align-items: center;
+     justify-content: center;
+     background-color: white ;
+
+ }
+ 
+
+
+} 
 
 
 @media (min-width: 1200px) {
@@ -684,7 +1003,7 @@ body{
          width: 20px;
          height: 20px;
          content: "";
-         transition: 1s; 
+         transition: 1s;
          background-color: transparent;
      }    
      .card:active{
@@ -711,7 +1030,7 @@ body{
     /* height: 80vh; */
     background-color: #383F49;
 }
-#test{
+#divProfil{
     width: 500px;
     position: relative;
     z-index: 1;
@@ -789,14 +1108,15 @@ body{
     flex-wrap: wrap;  
     flex-direction: row;  
     width: 100%;
-    height: 300px;
+    /* height: 300px; */
     background-color: blueviolet;
     }
 .expTitre{
     display: flex;
     width: 100%;
-    height: 15%;
+    /* height: 15%; */
     text-align: start;
+    /* margin-left: 5px */
     /* font-size: 25px; */
     /*  background-color: #000000; */
 }
@@ -805,7 +1125,7 @@ body{
     flex-wrap: wrap; 
     flex-direction: row;
     width: 49%;
-    height: 85%;
+   /*  height: 85%; */
     background-color: aqua;
 }  
     
@@ -820,12 +1140,14 @@ body{
     height: 20%;
     /*  background-color: cadetblue; */
 }
+
     
 #expDescriptionDev{
     display: flex;
     width: 75%;
     height: 100%;
     align-items: center;
+    margin-left: 8px;
 } 
 #dateExp{
     display: flex;
@@ -860,7 +1182,7 @@ body{
 .techTitre{
     display: flex;
     width: 100%;
-    height: 50px;
+   /*  height: 50px; */
     text-align: start;
     /* font-size: 25px; */
 }
