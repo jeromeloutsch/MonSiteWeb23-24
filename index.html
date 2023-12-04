@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <title>MonSiteWeb</title>
+    <title>MonSiteWeb_JL</title>
     <!-- <meta charset="UTF-8"> -->
     <meta name="description" content="MonSiteWeb">
     <meta name="keywords" content="Web23-24">
     <meta name="author" content="JeromeLoutsch">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" type="text/css" href="./css/style_CV.css"> -->
-<!--     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
- -->    
+    
 </head>
 <body>
     <div id="main">
-        
-          
-            <div id="nav">
-                <a class="card bouton btnNeonNav" href="#Experiences">Experiences</a>
-                <a class="card bouton btnNeonNav" href="#Etudes">Etudes</a>
-                <a class="card bouton btnNeonNav" href="#Technologies">Technologies</a>
-                <a class="card bouton btnNeonNav" href="#Langues">Langues</a>
-                <a class="card bouton btnNeonNav" href="#Loisirs">Loisirs</a>
-                <!--  <a class="card bouton btnNeonNav" href="#profil">Close</a> -->
-            </div>
 
-     
+        <!-- <a id="btnTest" onclick="afficherBoiteDialogue()"></a> -->
+        <img class="btnTest" id="elementAcacher" onclick="afficherBoiteDialogue()" src="./img/burger.png">
+        
+
+        <!-- Overlay (fond obscur) -->
+        <div class="overlay" id="overlay">
+            <!-- Boîte de dialogue -->
+            <!-- <div class="navbar"> -->
+                <div id="nav">
+                    <a class="card bouton btnNeonNav" onclick="cacherBoiteDialogue()" href="#Experiences">Experiences</a>
+                    <a class="card bouton btnNeonNav" onclick="cacherBoiteDialogue()" href="#Etudes">Etudes</a>
+                    <a class="card bouton btnNeonNav" onclick="cacherBoiteDialogue()" href="#Technologies">Technologies</a>
+                    <a class="card bouton btnNeonNav" onclick="cacherBoiteDialogue()" href="#Langues">Langues</a>
+                    <a class="card bouton btnNeonNav" onclick="cacherBoiteDialogue()" href="#Loisirs">Loisirs</a>
+                    <a class="card bouton btnNeonNav" id="elementAcacher" onclick="cacherBoiteDialogue()" href="#moi" >Fermer</a>
+                </div>
+
+                <!-- onclick="cacherBoiteDialogue()" -->
+                <!-- <button onclick="cacherBoiteDialogue()">Fermer</button> -->
+            <!-- </div> -->
+        </div>
+
         <div id="contenu">
 
-            <div id="profil"> 
-               
+            <div class="profil" id="moi"> 
+            
                 <div id="divProfil">
                     <div id="img_profil">
                         <img id="matete" src="./img/moi2.jpg" alt="">
@@ -157,10 +166,10 @@
                                 <div id="barTech">
                                     <!-- <div class="progress">
                                         <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                                      </div> -->
+                                    </div> -->
                                     <!-- <div class="progress" style="width: 40%"></div> -->
                                     <progress value="70" max="100" >70 %</progress> 
-                              </div>
+                            </div>
                             </div>
                         </div>
                         <div class="carteTech">
@@ -175,7 +184,7 @@
                                 </div>
                                 <div id="barTech">
                                     <progress value="80" max="100" >70 %</progress> 
-                              </div>
+                            </div>
                             </div>
                         </div>
                         <div class="carteTech">
@@ -190,7 +199,7 @@
                                 </div>
                                 <div id="barTech">
                                     <progress value="30" max="100" >70 %</progress> 
-                              </div>
+                            </div>
                             </div>
                         </div>
                         <div class="carteTech">
@@ -205,7 +214,7 @@
                                 </div>
                                 <div id="barTech">
                                     <progress value="50" max="100" >70 %</progress> 
-                              </div>
+                            </div>
                             </div>
                         </div>
                         <div class="carteTech">
@@ -220,7 +229,7 @@
                                 </div>
                                 <div id="barTech">
                                     <progress value="5" max="100" >70 %</progress> 
-                              </div>
+                            </div>
                             </div>
                         </div>
                         <div class="carteTech">
@@ -235,7 +244,7 @@
                                 </div>
                                 <div id="barTech">
                                     <progress value="75" max="100" >70 %</progress> 
-                              </div>
+                            </div>
                             </div>
                         </div>
                         <div class="carteTech">
@@ -250,7 +259,7 @@
                                 </div>
                                 <div id="barTech">
                                     <progress value="80" max="100" >70 %</progress> 
-                              </div>
+                            </div>
                             </div>
                         </div>
                         
@@ -273,7 +282,7 @@
                                 </div>
                                 <div id="barTech">
                                     <progress value="90" max="100" >90 %</progress> 
-                              </div>
+                            </div>
                             </div>
                         </div>
                         <div class="carteTech">
@@ -288,7 +297,7 @@
                                 </div>
                                 <div id="barTech">
                                     <progress value="60" max="100" >60 %</progress> 
-                              </div>
+                            </div>
                             </div>
                         </div>                        
                     </div>
@@ -310,7 +319,7 @@
                                 </div>
                             </div>
                         </div>
-                                              
+                                            
                     </div>
                 </div>
             
@@ -319,26 +328,48 @@
             </div>
 
         </div>
-
-
-      
     </div>
+
 </body>
 </html>
 
 <style>
-@media (max-width: 600px) {
-    #main{
-        /* overflow:hidden;  */
-        display: flex; 
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 100vh;
-        background-color: brown;
+        
+    @media (max-width:600px) {
+            
+        /* Styles pour le fond obscur en arrière-plan */
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0);
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Styles pour la boîte de dialogue au centre */
+       /*  .navbar {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+ */
+
+    .btnTest{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        right: 0;
+        top: 0;
+        background-color: transparent;
     }
+        
     #nav{
-        overflow-y:hidden ; 
+        
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -347,7 +378,9 @@
         width: 100%;
         height: 100%;
         background-color: #A6A4A5 ;
-    }
+    } 
+    
+   
     .bouton {
         display: flex;  
         align-items: center;
@@ -377,7 +410,6 @@
         border: solid 2px white;
         background-color: rgb(35, 54, 175);
     }
-    /* ---------------------------------*/
     #contenu{
         /*  display: flex;
         flex-wrap: wrap; */
@@ -386,7 +418,7 @@
         background-color: rgb(81, 0, 255);
     }
     /*---------------------------------------*/
-    #profil{
+    .profil{
         display: flex;
         width: 100%;
         height: 100vh;
@@ -577,14 +609,19 @@
         align-items: center;
         justify-content: center;
         background-color: white ;
-    }   
+    }           
 }
+      
 
 
 @media (min-width: 600px)  and (max-width: 1200px) { 
-    div > h2{
+#elementAcacher{
+    display: none;
+}
+
+div > h2{
     text-decoration: underline;
-   } 
+} 
 p{
     margin: 0;
 }
@@ -680,7 +717,7 @@ body{
  } 
  
 
- #profil{
+ .profil{
      display: flex;
     
      width: 100%;
@@ -935,9 +972,12 @@ body{
 
 
 @media (min-width: 1200px) {
-   div > h2{
+#elementAcacher{
+    display: none;
+}
+    div > h2{
     text-decoration: underline;
-   } 
+} 
 body{
     margin: 0;
     display: flex;
@@ -1023,7 +1063,7 @@ body{
     height: 90vh;
     background-color: rgb(81, 0, 255);
 }
-#profil{
+.profil{
     display: flex;
     
     width: 500px;
@@ -1275,16 +1315,35 @@ body{
 
 
 }
-</style>
+      
 
- <script>
- 
-/* 
+        
+    </style>
 
-function modifcssbouton(id){
-        let section = document.getElementById(id);
-        section.classList.add("bckgrd_nav");
+<!-- Script JavaScript -->
+<script>
+    function afficherBoiteDialogue() {
+        if (window.matchMedia("(max-width: 600px)").matches) {
+            // Afficher l'overlay (fond obscur)
+            document.getElementById("overlay").style.display = "flex";
+        }
     }
-*/
 
-</script> 
+    function cacherBoiteDialogue() {
+        if (window.matchMedia("(max-width: 600px)").matches) {
+            // Cacher l'overlay (fond obscur)
+            document.getElementById("overlay").style.display = "none";
+        }
+    }
+
+    function enleverHTML() {
+        // Vérifier la largeur de l'écran avec une media query en JavaScript
+        if (window.matchMedia("(max-width: 600px)").matches) {
+            // Récupérer l'élément par son ID
+            var modalElement = document.getElementById("modal");
+
+            // Vider le contenu HTML
+            modalElement.innerHTML = "";
+        }
+    }
+</script>
