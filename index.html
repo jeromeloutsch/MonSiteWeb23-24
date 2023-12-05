@@ -12,26 +12,19 @@
 <body>
     <div id="main">
 
-        <!-- <a id="btnTest" onclick="afficherBoiteDialogue()"></a> -->
         <img class="btnTest" id="elementAcacher" onclick="afficherBoiteDialogue()" src="./img/burger.png">
         
-
-        <!-- Overlay (fond obscur) -->
         <div class="overlay" id="overlay">
-            <!-- Boîte de dialogue -->
-            <!-- <div class="navbar"> -->
+            
                 <div id="nav">
-                    <a class="card bouton btnNeonNav" onclick="cacherBoiteDialogue()" href="#Experiences">Experiences</a>
-                    <a class="card bouton btnNeonNav" onclick="cacherBoiteDialogue()" href="#Etudes">Etudes</a>
-                    <a class="card bouton btnNeonNav" onclick="cacherBoiteDialogue()" href="#Technologies">Technologies</a>
-                    <a class="card bouton btnNeonNav" onclick="cacherBoiteDialogue()" href="#Langues">Langues</a>
-                    <a class="card bouton btnNeonNav" onclick="cacherBoiteDialogue()" href="#Loisirs">Loisirs</a>
-                    <a class="card bouton btnNeonNav" id="elementAcacher" onclick="cacherBoiteDialogue()" href="#moi" >Fermer</a>
+                    <a class="card bouton btnNav" onclick="cacherBoiteDialogue()" href="#Experiences">Experiences</a>
+                    <a class="card bouton btnNav" onclick="cacherBoiteDialogue()" href="#Etudes">Etudes</a>
+                    <a class="card bouton btnNav" onclick="cacherBoiteDialogue()" href="#Technologies">Technologies</a>
+                    <a class="card bouton btnNav" onclick="cacherBoiteDialogue()" href="#Langues">Langues</a>
+                    <a class="card bouton btnNav" onclick="cacherBoiteDialogue()" href="#Loisirs">Loisirs</a>
+                    <a class="card bouton btnNav" id="elementAcacher" onclick="cacherBoiteDialogue()" href="#moi" >Fermer</a>
                 </div>
 
-                <!-- onclick="cacherBoiteDialogue()" -->
-                <!-- <button onclick="cacherBoiteDialogue()">Fermer</button> -->
-            <!-- </div> -->
         </div>
 
         <div id="contenu">
@@ -43,12 +36,12 @@
                         <img id="matete" src="./img/moi2.jpg" alt="">
                     </div>
                     <div id="titrecv">
-                        <h1>Directeur General</h1>
+                        <h1>Directeur Général</h1>
                     </div>
                 
                     <div id="txtprofil" > 
                         <h1>LOUTSCH JEROME </h1>
-                        <p> Ceci est mon cv et puis jfnqvnbf eifnffnf efn efnn enàFNF  eufnf</p>
+                        <p> Je me presente : Etudiant, en aprentissage au cours du soir à l'EAFC à Arlon. Voici donc mon examen de Web </p>
                     </div>
                 </div>
             </div>
@@ -64,7 +57,7 @@
                     <div id="expInfoDemi">
                         <div id="expDev">
                             <div id="expDescriptionDev">
-                                <h3> Helpdesk</h3>
+                                <h3> Web Designer </h3>
                             </div>
                             <div id="dateExp">
                                 <p>2020-2022</p>
@@ -72,32 +65,32 @@
                         </div>
                         <div id="expDev2"> 
                             <ul>
-                                <li>Liste 1</li>
-                                <li>Liste 2</li>
-                                <li>Liste 3</li>
-                                <li>Liste 4</li>
-                                <li>Liste 5</li>
-                                <li>Liste 6</li>
+                                <li>Concevoir et développer des interfaces utilisateur attrayantes et intuitives pour les sites web.</li>
+                                <li>Collaborer avec les équipes de développement pour assurer la cohérence entre le design et le code.</li>
+                                <li>Optimiser la convivialité et l'accessibilité des sites web pour une expérience utilisateur maximale.</li>
+                                <li>Participer à des réunions avec les clients pour comprendre leurs besoins et leurs objectifs.</li>
+                                <!-- <li>Liste 5</li>
+                                <li>Liste 6</li> -->
                             </ul>
                         </div>
                     </div>
                     <div id="expInfoDemi">
                         <div id="expDev">
                             <div id="expDescriptionDev">
-                                <h3> Titre1</h3>
+                                <h3> Stagiaire en Web Design</h3>
                             </div>
                             <div id="dateExp">
-                                <p>Date</p>
+                                <p>2019-2020</p>
                             </div>
                         </div>
                         <div id="expDev2"> 
                             <ul>
-                                <li>Liste 11</li>
-                                <li>Liste 22</li>
-                                <li>Liste 33</li>
-                                <li>Liste 44</li>
+                                <li>Assister à la création de maquettes et de prototypes pour les clients potentiels.</li>
+                                <li>Apprendre et mettre en œuvre les dernières tendances en matière de design web.</li>
+                                <li>Contribuer à la maintenance et à la mise à jour des sites web existants.</li>
+                                <!-- <li>Liste 44</li>
                                 <li>Liste 55</li>
-                                <li>Liste 66</li>
+                                <li>Liste 66</li> -->
                             </ul>
                         </div>
                     </div>
@@ -148,11 +141,11 @@
                         </div>
                     </div>
                 </div>
-                <div id="expTech">
+                <div class="expTech">
                     <div class="techTitre">
                         <h2 id="Technologies"> Technologies</h2>
                     </div>
-                    <div id="Tech">
+                    <div class="Tech">
                         <div class="carteTech">
                             <div id="demiCart"> 
                                 <div id="cartIco"> 
@@ -265,11 +258,11 @@
                         
                     </div>                    
                 </div>
-                <div id="expTech">
+                <div class="expTech">
                     <div class="techTitre"id="Langues">
                         <h2 >Langues</h2>
                     </div>
-                    <div id="Tech">
+                    <div class="Tech">
                         <div class="carteTech">
                             <div id="demiCart"> 
                                 <div id="cartIco"> 
@@ -302,12 +295,12 @@
                         </div>                        
                     </div>
                 </div>
-                <div id="expTech">
+                <div class="expTech">
                     <div class="techTitre" id="Loisirs">
                         <h2 >Loisirs</h2>
                     </div>
-                    <div id="Tech">
-                        <div class="carteTech" id="carteLois">
+                    <div class="TechLois">
+                        <div class="carteTech" >
                             <div id="LoiCart"> 
                                 <div id="cartIco"> 
                                     <img id="jsIco" src="./img/js.jpg" alt="ico_js">
@@ -350,14 +343,7 @@
             align-items: center;
         }
 
-        /* Styles pour la boîte de dialogue au centre */
-       /*  .navbar {
-            background: white;
-            padding: 20px;
-            border-radius: 5px;
-            text-align: center;
-        }
- */
+    
 
     .btnTest{
         position: fixed;
@@ -395,21 +381,21 @@
         color: white;
         margin-top: 20px;
     }
-    .btnNeonNav {
+    .btnNav {
         justify-content: center;
         background-color: transparent;
         color: #000000;
         border: none;
         font-weight: 300;
-    }
-    .btnNeonNav:hover {
+    }/* 
+    .btnNav:hover {
         background-color: #070066;
         color: white;
     }
-    .btnNeonNav:active {
+    .btnNav:active {
         border: solid 2px white;
         background-color: rgb(35, 54, 175);
-    }
+    } */
     #contenu{
         /*  display: flex;
         flex-wrap: wrap; */
@@ -444,33 +430,42 @@
     }
     #titrecv{
         width: 100%;
-        height: 10%;
+        height: 14%;
         background-color: #313131;
         /*  align-items: center; */
         justify-items: center;
         text-align: center;
         color: #D5E0E6;
+        font-size: 26px;
+    }
+    #titrecv > h1 {
+        margin: 0;
     }
     #txtprofil{
         width: 100%;
-        height: 15%;
+        height: 11%;
         align-items: center;
         justify-items: center;
         text-align: start;  
+        font-size: large;
         background-color: #D5E0E6;
         color: #313131; 
     }
     #txtprofil > h1{
-        font-size: medium;
+        font-size: Large;
         text-align: start; 
+        margin: 0;
     }
+    #txtprofil > p{
+        margin: 0;
+    }
+    /*-------Partie Experiences--------*/
     #exp{
         width: 100%;
     }   
     #expInfo{
         display: flex;
         flex-wrap: wrap;
-        
         width: 100%;
         height: 100%;
         background-color: violet; 
@@ -478,7 +473,7 @@
     .expTitre{
         display: flex;
         width: 100%;
-       /*  height: 70px ; */
+        height: 70px ;
         background-color: cadetblue;
     }
     .expTitre > H2{
@@ -488,18 +483,19 @@
     }
     #expInfoDemi{
         width: 100%;
-        /* height: 100%;   */
         justify-content:  center;
         align-items: center;
     }
     #expDev{
-        width: 100%;  
+        /* margin: 0 3px ;  */
+        width: 100%; 
+        
     }
     #expDescriptionDev > h3{
         margin-top: auto;
         margin-bottom: auto;
         background-color: #587ad1; 
-        margin: 0;
+        margin: 0 3px ;
     }
     #expDev2{
         justify-content:  center;
@@ -507,16 +503,18 @@
         /* height: 100%; */
         /* background-color: #313131; */
     }
-    #dateExp{
-        /* margin: 0; */
-        width: 100%;
-        /* height: 100%; */
-        background-color: white;
+    #expDev2 > ul > li {
+    margin-right: 5px;
     }
+    
     #dateExp > p {
-        margin: 0;
+        margin-top: auto;
+        margin-bottom: auto; 
+        margin: 0 3px ;
+        background-color: white;
+        
     }
-    #expTech{
+    .expTech{
         width: 100%;
         /* height: 500px; */
         background-color:deeppink;
@@ -533,26 +531,20 @@
         margin-bottom: auto;
         text-decoration: underline;
     }
-    #Tech{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        width: 100%;
-        /* height: 100%; */
-        background-color: darkolivegreen;
-        justify-content: start; 
-    }
+    
     .carteTech{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         height: 115px;
         width: 50%;
         background-color: red;
         border: solid 1px #000000;
-        margin: -1px;
-        margin-bottom: 15px;
+        margin: 7px -1px ;
+        /* margin-bottom: 7px; */
+        
     }
     #demiCart{
         display: flex;
@@ -609,7 +601,26 @@
         align-items: center;
         justify-content: center;
         background-color: white ;
-    }           
+    }
+    .TechLois{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        /* height: 100%; */
+        background-color: darkolivegreen;
+        justify-content: center; 
+    } 
+    .Tech{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        /* height: 100%; */
+        background-color: darkolivegreen;
+        justify-content: start; 
+    }     
+          
 }
       
 
@@ -864,7 +875,7 @@ body{
      background-color: white;
  }
 
- #expTech{
+ .expTech{
      display: flex;
      flex-direction: row; 
      flex-wrap: wrap;  
@@ -881,7 +892,16 @@ body{
      text-align: start;
      font-size: 25px;
  }
- #Tech{
+ .Tech{
+     display: flex;
+     flex-wrap: wrap; 
+     flex-direction: row;
+     width: 100%;
+     /* height: 100%; */
+     background-color: darkolivegreen;
+     justify-content: start; 
+ }
+ .TechLois{
      display: flex;
      flex-wrap: wrap; 
      flex-direction: row;
@@ -1207,12 +1227,12 @@ body{
     display: flex;
     width: 100%;
     height: 80%;
-    align-items: center;
+    /* align-items: center; */
     background-color: gainsboro;
 }
 
 /*------------------------------------------*/
-#expTech{
+.expTech{
     display: flex;
     flex-wrap: wrap;  
     flex-direction: row; 
@@ -1227,7 +1247,16 @@ body{
     text-align: start;
     /* font-size: 25px; */
 }
-#Tech{
+.Tech{
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    width: 100%;
+    /* height: 100%; */
+    background-color: darkolivegreen;
+    justify-content: start; 
+}
+.TechLois{
     display: flex;
     flex-wrap: wrap; 
     flex-direction: row;
