@@ -675,7 +675,7 @@ body{
 #nav{
     display: flex;
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     /* height: 80px; */
     background-color: #A6A4A5;
 }
@@ -751,23 +751,24 @@ body{
  .profil{
      display: flex;
     
-     width: 100%;
-     height: 100%;
+     width: 100vw;
+     height: 85vh;
      background-color: white;
  }
  #divProfil{
     display: flex;
-     flex-wrap: wrap-reverse;
-     flex-direction: column-reverse;
-     width: 100%;
-    
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    width: 100%;
+    border: solid 10px black; 
+    background-color: black;
     /* height: 100%; */
-    border: solid 10px #000000;
+   /*  border: solid 10px #000000; */
     
 
     /* A supprimer 
     
-     background-color: white;
+     
 
      justify-content: center;
      align-items: center;
@@ -777,21 +778,23 @@ body{
      display: flex;
      
      height: 100%;
-    /*  width: 40%; */
+     width: 38%;
      /* background-color: black; */
+    
     
       border-left: solid 10px black; 
  }    
  #titrecv{
      /* DG */
      display: flex;
-     /* width: 60%; */
-     /* height: 40%; */
+     width: 60%;
+     height: 30%;
      background-color: #313131;
      color: #EEE7E1;
      font-size:x-large;
      justify-content: center;
      align-items: center;  
+     
         
  }
  #txtprofil{
@@ -799,14 +802,22 @@ body{
      flex-direction: column;
      justify-content: center;
     /*  align-items: start; */
-     text-align: start;
-     /* width: 50%; */
+     text-align: justify;
+     width: 60%;
      flex-grow: 1;
      background-color: #EEE7E1; 
+    
+
  }
 #txtprofil > h1 {
     text-align: center;
     align-items: center;
+ } 
+ #txtprofil > p {
+    width: 95%;
+    font-size: x-large;
+    margin: auto;
+    
  } 
  /*------------------------------------------*/
  #exp{
