@@ -115,7 +115,7 @@
                                 <li>Maîtrise des outils de conception : Adobe Creative Suite, Sketch, Figma.</li>
                                 <li>Expérience dans l'utilisation de frameworks tels que Bootstrap ou React.</li>
                                 <li>Compétence en animation avec CSS et JavaScript.</li>
-                                <li>Liste 5E</li>
+                                <!-- <li>Liste 5E</li> -->
                                 <!--<li>Liste 6H</li> -->
                             </ul>
                         </div>
@@ -289,7 +289,7 @@
                                     <p> Anglais </p>
                                 </div>
                                 <div id="barTech">
-                                    <progress value="60" max="100" >60 %</progress> 
+                                    <progress value="40" max="100" >40 %</progress> 
                             </div>
                             </div>
                         </div>                        
@@ -669,7 +669,7 @@ body{
     flex-wrap: wrap; */
     width: 100%;
    /*  height: 100vh; */
-    background-color: brown;
+    background-color: #EEE7E1;
 }
 
 #nav{
@@ -739,7 +739,7 @@ body{
     flex-direction: row;
     width: 100%;
     height: 80vh;
-    background-color: rgb(81, 0, 255);
+    /* background-color: rgb(81, 0, 255); */
 }
 /* ---------------------------------- */
  #matete{
@@ -753,7 +753,7 @@ body{
     
      width: 100vw;
      height: 85vh;
-     background-color: white;
+    /*  background-color: white; */
  }
  #divProfil{
     display: flex;
@@ -762,47 +762,30 @@ body{
     width: 100%;
     border: solid 10px black; 
     background-color: black;
-    /* height: 100%; */
-   /*  border: solid 10px #000000; */
-    
-
-    /* A supprimer 
-    
-     
-
-     justify-content: center;
-     align-items: center;
-     text-align: center;*/
+   
  }
  #img_profil{
-     display: flex;
-     
+     display: flex;  
      height: 100%;
      width: 38%;
-     /* background-color: black; */
-    
-    
       border-left: solid 10px black; 
+     /* background-color: black; */
  }    
  #titrecv{
      /* DG */
      display: flex;
      width: 60%;
      height: 30%;
-     background-color: #313131;
      color: #EEE7E1;
      font-size:x-large;
      justify-content: center;
      align-items: center;  
-     
-        
+     background-color: #313131;
  }
  #txtprofil{
      display: flex;
      flex-direction: column;
-     justify-content: center;
-    /*  align-items: start; */
-     text-align: justify;
+     align-items: center;
      width: 60%;
      flex-grow: 1;
      background-color: #EEE7E1; 
@@ -810,13 +793,24 @@ body{
 
  }
 #txtprofil > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin: auto;
     text-align: center;
     align-items: center;
  } 
  #txtprofil > p {
-    width: 95%;
-    font-size: x-large;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 97%;
+    height: 50%;
+    font-size: 25px;
+    
+    /* margin-top: auto;
+    margin-bottom: auto; */
     
  } 
  /*------------------------------------------*/
@@ -827,22 +821,22 @@ body{
     flex-direction: column;
     flex-grow: 1 ;
     height: 100%;
-    background-color: rgb(183, 140, 54)
+
 }
  #exp2{
-    background-color: #900;
+    /* background-color: #900; */
     width: 100%;
-    height: 3000px;
+    /* height: 3000px; */
 } 
 
 
 #expInfo{
-     display: flex;
+    display: flex;
     flex-wrap: wrap;  
-    /*flex-direction: row;   */
     width: 100%;
     /* height: 300px; */
-    background-color: blueviolet;
+    /*flex-direction: row;   */
+    background-color: #EEE7E1;
 }
 
  #expInfoDemi{
@@ -851,54 +845,51 @@ body{
      flex-direction: column;
      width: 100%;
      /* height: 50%; */
-     background-color: aqua;
+     /* background-color: aqua; */
  }  
- #expTitre{
+ .expTitre{
      display: flex;
      width: 100%;
      text-align: start;
      font-size: 25px;
+     /* background-color: #CAC4C0; */
  }
- #expTitre > H2{
+ .expTitre > H2{
      text-decoration: underline;
+     
  }
  #expDev{
      display: flex;
-     flex-wrap: wrap;
-     /* flex-direction: column; */
+     flex-wrap: wrap; 
      width: 100%;
-     height: 20%;
-   /*  background-color: cadetblue; */
+     height:50px;
  }
  
  #expDev2{
      display: flex;
      width: 100%;
-     height: 80%;
+     /* height: 70%; */
      align-items: center;
      margin-left: 10px;
     /*  background-color: red; */
  }
  #expDescriptionDev{
      display: flex;
-     width: 75%;
+     width: 80%;
      height: 100%;
      margin: 0;
      /* align-items: center; */
-     /* background-color: #070066; */
  } 
  #expDescriptionDev > h3{
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 10px;
-    background-color: cadetblue;
+    background-color: #223242;
+    color: white;
  }
  #dateExp{
      display: flex;
-     width: 25%;
-     /* height: 100%; */
-     background-color: burlywood;
-    /*  text-decoration-color: burlywood; */
+     width: 20%;
      align-items: center;
      justify-content: center;
  }
@@ -913,23 +904,27 @@ body{
      width: 100%;
      /* height: 500px; */
 
-     background-color:deeppink;
+     background-color:#EEE7E1;
  
  }
-  #techTitre{
-     display: flex;
-     width: 100%;
-     height: 50px;
-     text-align: start;
-     font-size: 25px;
- }
+.techTitre{
+    display: flex;
+    width: 100%;
+    height: 70px ;
+    background-color: #cac4c0;
+}
+.techTitre > H2{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: underline;
+}
  .Tech{
      display: flex;
      flex-wrap: wrap; 
      flex-direction: row;
      width: 100%;
      /* height: 100%; */
-     background-color: darkolivegreen;
+    /*  background-color: darkolivegreen; */
      justify-content: start; 
  }
  .TechLois{
@@ -938,7 +933,7 @@ body{
      flex-direction: row;
      width: 100%;
      /* height: 100%; */
-     background-color: darkolivegreen;
+     /* background-color: darkolivegreen; */
      justify-content: start; 
  }
 
@@ -949,8 +944,13 @@ body{
      height: 280px;
      width: 230px;
      margin: 18px;
-     background-color: red;
+     border: solid 1px #000000;
+     /* background-color: red; */
  }
+ #borderTop{
+        border-top: solid 1px #000000;
+        margin-bottom: -1px;
+    }
  .demiCart{
      display: flex;
      flex-wrap: wrap;
@@ -958,7 +958,7 @@ body{
      height: 50%;
      justify-content: center;
      align-items: center;
-     background-color: yellow;
+     /* background-color: yellow; */
 
  }
  #cartIco{
@@ -977,7 +977,7 @@ body{
      height: 50%;
      align-items: center;
      justify-content: center;
-     background-color: white ;
+     /* background-color: white ; */
  }
  #barTech{
      display: flex;
@@ -985,7 +985,7 @@ body{
      justify-content: center; 
      width: 100%;
      height: 50%;
-     background-color: aquamarine; 
+     /* background-color: aquamarine;  */
  }
  .LoiCart{
      display: flex;
@@ -994,7 +994,7 @@ body{
      height: 70%;
      justify-content: center;
      align-items: center;
-     background-color: yellow;
+     /* background-color: yellow; */
 
  }
  .LoiCart2{
@@ -1004,7 +1004,7 @@ body{
      height: 30%;
      justify-content: center;
      align-items: center;
-     background-color: grey;
+     /* background-color: grey; */
 
  }
  #txtLoi{
@@ -1013,7 +1013,7 @@ body{
      height: 100%;
      align-items: center;
      justify-content: center;
-     background-color: white ;
+     /* background-color: white ; */
 
  }
  
