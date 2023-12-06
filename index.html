@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <title>MonSiteWeb_JL</title>
-    <!-- <meta charset="UTF-8"> -->
+    <meta charset="UTF-8">
     <meta name="description" content="MonSiteWeb">
     <meta name="keywords" content="Web23-24">
     <meta name="author" content="JeromeLoutsch">
@@ -12,303 +12,296 @@
     
 </head>
 <body>
-    <div id="main">
+    <section class="main">
 
-        <img class="btnTest" id="elementAcacher" onclick="afficherBoiteDialogue()" src="./img/burger.png">
-        
-        <div class="overlay" id="overlay">
-            
-                <div id="nav">
-                    <a class="card bouton btnNav" onclick="cacherBoiteDialogue()" href="#Experiences">Experiences</a>
-                    <a class="card bouton btnNav" onclick="cacherBoiteDialogue()" href="#Etudes">Etudes</a>
-                    <a class="card bouton btnNav" onclick="cacherBoiteDialogue()" href="#Technologies">Technologies</a>
-                    <a class="card bouton btnNav" onclick="cacherBoiteDialogue()" href="#Langues">Langues</a>
-                    <a class="card bouton btnNav" onclick="cacherBoiteDialogue()" href="#Loisirs">Loisirs</a>
-                    <a class="card bouton btnNav" id="elementAcacher" onclick="cacherBoiteDialogue()" href="#moi" >Fermer</a>
-                </div>
-
+        <div class="btnBurger" onclick="afficherBarNav()">
+            <img class="image" src="./img/burger.png" alt="menu burger">
         </div>
 
-        <div id="contenu">
+        <div class="overlay" id="overlay">
+                <div id="nav">
+                    <a class="card bouton btnNav" onclick="cacherBarNav()" href="#Experiences">Experiences</a>
+                    <a class="card bouton btnNav" onclick="cacherBarNav()" href="#Etudes">Etudes</a>
+                    <a class="card bouton btnNav" onclick="cacherBarNav()" href="#Technologies">Technologies</a>
+                    <a class="card bouton btnNav" onclick="cacherBarNav()" href="#Langues">Langues</a>
+                    <a class="card bouton btnNav" onclick="cacherBarNav()" href="#Loisirs">Loisirs</a>
+                    <a class="card bouton btnNav" id="elementAcacher" onclick="cacherBarNav()" href="#moi" >Fermer</a>
+                </div>
+        </div>
 
+        <div class="contenu">
             <div class="profil" id="moi"> 
-            
                 <div id="divProfil">
                     <div id="img_profil">
-                        <img id="matete" src="./img/moi2.jpg" alt="">
+                        <img class="image" src="./img/moi2.jpg" alt="matete">
                     </div>
                     <div id="titrecv">
                         <h1>Directeur Général</h1>
                     </div>
-                
                     <div id="txtprofil" > 
                         <h1>LOUTSCH JEROME </h1>
                         <p> Je me presente : Etudiant, en aprentissage au cours du soir à l'EAFC à Arlon. Voici donc mon examen de Web </p>
                     </div>
                 </div>
             </div>
-            <div id="exp">
-                <div id="exp2">
-
-                    
-                <div id="expInfo">
-                    
-                    <div class="expTitre" id="Experiences">
-                        <h2>Experiences</h2>
-                    </div> 
-                    <div id="expInfoDemi">
-                        <div id="expDev">
-                            <div id="expDescriptionDev">
-                                <h3> Web Designer </h3>
-                            </div>
-                            <div id="dateExp">
-                                <p>2020-2022</p>
-                            </div>
-                        </div>
-                        <div id="expDev2"> 
-                            <ul>
-                                <li>Concevoir et développer des interfaces utilisateur attrayantes et intuitives pour les sites web.</li>
-                                <li>Collaborer avec les équipes de développement pour assurer la cohérence entre le design et le code.</li>
-                                <li>Optimiser la convivialité et l'accessibilité des sites web pour une expérience utilisateur maximale.</li>
-                                <li>Participer à des réunions avec les clients pour comprendre leurs besoins et leurs objectifs.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div id="expInfoDemi">
-                        <div id="expDev">
-                            <div id="expDescriptionDev">
-                                <h3> Stagiaire en Web Design</h3>
-                            </div>
-                            <div id="dateExp">
-                                <p>2019-2020</p>
-                            </div>
-                        </div>
-                        <div id="expDev2"> 
-                            <ul>
-                                <li>Assister à la création de maquettes et de prototypes pour les clients potentiels.</li>
-                                <li>Apprendre et mettre en œuvre les dernières tendances en matière de design web.</li>
-                                <li>Contribuer à la maintenance et à la mise à jour des sites web existants.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div id="expInfo">
-                    
-                    <div class="expTitre"id="Etudes">
-                        <h2 >Etudes</h2>
-                    </div> 
-                    <div id="expInfoDemi">
-                        <div id="expDev">
-                            <div id="expDescriptionDev">
-                                <h3>Diplôme en Design Web</h3>
-                            </div>
-                            <div id="dateExp">
-                                <p>2017-2019</p>
-                            </div>
-                        </div>
-                        <div id="expDev2"> 
-                            <ul>
-                                <li>Cours pertinents : Conception d'interfaces utilisateur, Développement web, UX/UI Design.</li>
-                                <li>Maîtrise des outils de conception : Adobe Creative Suite, Sketch, Figma.</li>
-                                <li>Expérience dans l'utilisation de frameworks tels que Bootstrap ou React.</li>
-                                <li>Compétence en animation avec CSS et JavaScript.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div id="expInfoDemi">
-                        <div id="expDev">
-                            <div id="expDescriptionDev">
-                                <h3> Certificat en Développement</h3>
-                            </div>
-                            <div id="dateExp">
-                                <p>2015-2017</p>
-                            </div>
-                        </div>
-                        <div id="expDev2"> 
-                            <ul>
-                                <li>Cours avancés en HTML, CSS, JavaScript, et frameworks tels que React.</li>
-                                <li>Apprentissage des principes fondamentaux de l'UX, conception de wireframes, et tests utilisateur.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="expTech">
-                    <div class="techTitre">
-                        <h2 id="Technologies"> Technologies</h2>
-                    </div>
-                    <div class="Tech">
-                        <div class="carteTech">
-                            <div class="demiCart"> 
-                                <div id="cartIco"> 
-                                    <img id="jsIco" src="./img/js.jpg" alt="ico_js">
-                                </div>
-                            </div>
-                            <div class="demiCart" id="borderTop"> 
-                                <div id="txtTech">
-                                    <p> Javascript</p>
-                                </div>
-                                <div id="barTech">
-                                    <progress value="70" max="100" >70 %</progress> 
-                            </div>
-                            </div>
-                        </div>
-                        <div class="carteTech">
-                            <div class="demiCart"> 
-                                <div id="cartIco"> 
-                                    <img id="jsIco" src="./img/web.png" alt="web">
-                                </div>
-                            </div>
-                            <div class="demiCart" id="borderTop"> 
-                                <div id="txtTech">
-                                    <p> Web</p>
-                                </div>
-                                <div id="barTech">
-                                    <progress value="80" max="100" >80 %</progress> 
-                            </div>
-                            </div>
-                        </div>
-                        <div class="carteTech">
-                            <div class="demiCart"> 
-                                <div id="cartIco"> 
-                                    <img id="jsIco" src="./img/c.png" alt="C">
-                                </div>
-                            </div>
-                            <div class="demiCart" id="borderTop"> 
-                                <div id="txtTech">
-                                    <p> C </p>
-                                </div>
-                                <div id="barTech">
-                                    <progress value="30" max="100" >30 %</progress> 
-                            </div>
-                            </div>
-                        </div>
-                        <div class="carteTech">
-                            <div class="demiCart"> 
-                                <div id="cartIco"> 
-                                    <img id="jsIco" src="./img/sql.png" alt="sql">
-                                </div>
-                            </div>
-                            <div class="demiCart" id="borderTop"> 
-                                <div id="txtTech">
-                                    <p> SQL </p>
-                                </div>
-                                <div id="barTech">
-                                    <progress value="50" max="100" >50 %</progress> 
-                            </div>
-                            </div>
-                        </div>
-                        <div class="carteTech">
-                            <div class="demiCart"> 
-                                <div id="cartIco"> 
-                                    <img id="jsIco" src="./img/phyton.png" alt="Phyton">
-                                </div>
-                            </div>
-                            <div class="demiCart" id="borderTop"> 
-                                <div id="txtTech">
-                                    <p> Phyton </p>
-                                </div>
-                                <div id="barTech">
-                                    <progress value="5" max="100" >5 %</progress> 
-                            </div>
-                            </div>
-                        </div>
-                        <div class="carteTech">
-                            <div class="demiCart"> 
-                                <div id="cartIco"> 
-                                    <img id="jsIco" src="./img/java.png" alt="java">
-                                </div>
-                            </div>
-                            <div class="demiCart" id="borderTop"> 
-                                <div id="txtTech">
-                                    <p> Java </p>
-                                </div>
-                                <div id="barTech">
-                                    <progress value="75" max="100" >75 %</progress> 
-                            </div>
-                            </div>
-                        </div>
-                        <div class="carteTech">
-                            <div class="demiCart"> 
-                                <div id="cartIco"> 
-                                    <img id="jsIco" src="./img/system.png" alt="OS">
-                                </div>
-                            </div>
-                            <div class="demiCart" id="borderTop"> 
-                                <div id="txtTech">
-                                    <p> System </p>
-                                </div>
-                                <div id="barTech">
-                                    <progress value="80" max="100" >80 %</progress> 
-                            </div>
-                            </div>
-                        </div>
+            <div class="exp">
+                <div class="exp2">                  
+                    <div class="expInfo">
                         
-                    </div>                    
-                </div>
-                <div class="expTech">
-                    <div class="techTitre"id="Langues">
-                        <h2 >Langues</h2>
-                    </div>
-                    <div class="Tech">
-                        <div class="carteTech">
-                            <div class="demiCart"> 
-                                <div id="cartIco"> 
-                                    <img id="jsIco" src="./img/be.png" alt="Be">
+                        <div class="expTitre" id="Experiences">
+                            <h2>Experiences</h2>
+                        </div> 
+                        <div class="expInfoDemi">
+                            <div class="expDev">
+                                <div class="expDescriptionDev">
+                                    <h3> Web Designer </h3>
+                                </div>
+                                <div class="dateExp">
+                                    <p>2020-2022</p>
                                 </div>
                             </div>
-                            <div class="demiCart" id="borderTop"> 
-                                <div id="txtTech">
-                                    <p> Francais </p>
-                                </div>
-                                <div id="barTech">
-                                    <progress value="90" max="100" >90 %</progress> 
-                            </div>
+                            <div class="expDev2"> 
+                                <ul>
+                                    <li>Concevoir et développer des interfaces utilisateur attrayantes et intuitives pour les sites web.</li>
+                                    <li>Collaborer avec les équipes de développement pour assurer la cohérence entre le design et le code.</li>
+                                    <li>Optimiser la convivialité et l'accessibilité des sites web pour une expérience utilisateur maximale.</li>
+                                    <li>Participer à des réunions avec les clients pour comprendre leurs besoins et leurs objectifs.</li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="carteTech">
-                            <div class="demiCart"> 
-                                <div id="cartIco"> 
-                                    <img id="jsIco" src="./img/anglais.png" alt="EN">
+                        <div class="expInfoDemi">
+                            <div class="expDev">
+                                <div class="expDescriptionDev">
+                                    <h3> Stagiaire en Web Design</h3>
+                                </div>
+                                <div class="dateExp">
+                                    <p>2019-2020</p>
                                 </div>
                             </div>
-                            <div class="demiCart" id="borderTop"> 
-                                <div id="txtTech">
-                                    <p> Anglais </p>
-                                </div>
-                                <div id="barTech">
-                                    <progress value="40" max="100" >40 %</progress> 
-                            </div>
-                            </div>
-                        </div>                        
-                    </div>
-                </div>
-                <div class="expTech">
-                    <div class="techTitre" id="Loisirs">
-                        <h2 >Loisirs</h2>
-                    </div>
-                    <div class="TechLois">
-                        <div class="carteTech" >
-                            <div class="LoiCart"> 
-                                <div id="cartIco"> 
-                                    <img id="jsIco" src="./img/foot.png" alt="foot">
-                                </div>
-                            </div>
-                            <div class="LoiCart2" id="borderTop"> 
-                                <div id="txtLoi">
-                                    <p> Foot </p>
-                                </div>
+                            <div class="expDev2"> 
+                                <ul>
+                                    <li>Assister à la création de maquettes et de prototypes pour les clients potentiels.</li>
+                                    <li>Apprendre et mettre en œuvre les dernières tendances en matière de design web.</li>
+                                    <li>Contribuer à la maintenance et à la mise à jour des sites web existants.</li>
+                                </ul>
                             </div>
                         </div>
-                                            
                     </div>
-                </div>
-            
-
+                    <div class="expInfo">
+                        
+                        <div class="expTitre" id="Etudes">
+                            <h2 >Etudes</h2>
+                        </div> 
+                        <div class="expInfoDemi">
+                            <div class="expDev">
+                                <div class="expDescriptionDev">
+                                    <h3>Diplôme en Design Web</h3>
+                                </div>
+                                <div class="dateExp">
+                                    <p>2017-2019</p>
+                                </div>
+                            </div>
+                            <div class="expDev2"> 
+                                <ul>
+                                    <li>Cours pertinents : Conception d'interfaces utilisateur, Développement web, UX/UI Design.</li>
+                                    <li>Maîtrise des outils de conception : Adobe Creative Suite, Sketch, Figma.</li>
+                                    <li>Expérience dans l'utilisation de frameworks tels que Bootstrap ou React.</li>
+                                    <li>Compétence en animation avec CSS et JavaScript.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="expInfoDemi">
+                            <div class="expDev">
+                                <div class="expDescriptionDev">
+                                    <h3> Certificat en Développement</h3>
+                                </div>
+                                <div class="dateExp">
+                                    <p>2015-2017</p>
+                                </div>
+                            </div>
+                            <div class="expDev2"> 
+                                <ul>
+                                    <li>Cours avancés en HTML, CSS, JavaScript, et frameworks tels que React.</li>
+                                    <li>Apprentissage des principes fondamentaux de l'UX, conception de wireframes, et tests utilisateur.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="expTech">
+                        <div class="techTitre">
+                            <h2 id="Technologies"> Technologies</h2>
+                        </div>
+                        <div class="Tech">
+                            <div class="carteTech">
+                                <div class="demiCart"> 
+                                    <div class="cartIco"> 
+                                        <img class="image" src="./img/js.jpg" alt="ico_js">
+                                    </div>
+                                </div>
+                                <div class="demiCart borderTop"> 
+                                    <div class="txtTech">
+                                        <p> Javascript</p>
+                                    </div>
+                                    <div class="barTech">
+                                        <progress value="70" max="100" >70 %</progress> 
+                                </div>
+                                </div>
+                            </div>
+                            <div class="carteTech">
+                                <div class="demiCart"> 
+                                    <div class="cartIco"> 
+                                        <img class="image" src="./img/web.png" alt="web">
+                                    </div>
+                                </div>
+                                <div class="demiCart borderTop"> 
+                                    <div class="txtTech">
+                                        <p> Web</p>
+                                    </div>
+                                    <div class="barTech">
+                                        <progress value="80" max="100" >80 %</progress> 
+                                </div>
+                                </div>
+                            </div>
+                            <div class="carteTech">
+                                <div class="demiCart"> 
+                                    <div class="cartIco"> 
+                                        <img class="image" src="./img/c.png" alt="C">
+                                    </div>
+                                </div>
+                                <div class="demiCart borderTop"> 
+                                    <div class="txtTech">
+                                        <p> C </p>
+                                    </div>
+                                    <div class="barTech">
+                                        <progress value="30" max="100" >30 %</progress> 
+                                </div>
+                                </div>
+                            </div>
+                            <div class="carteTech">
+                                <div class="demiCart"> 
+                                    <div class="cartIco"> 
+                                        <img class="image" src="./img/sql.png" alt="sql">
+                                    </div>
+                                </div>
+                                <div class="demiCart borderTop"> 
+                                    <div class="txtTech">
+                                        <p> SQL </p>
+                                    </div>
+                                    <div class="barTech">
+                                        <progress value="50" max="100" >50 %</progress> 
+                                </div>
+                                </div>
+                            </div>
+                            <div class="carteTech">
+                                <div class="demiCart"> 
+                                    <div class="cartIco"> 
+                                        <img class="image" src="./img/phyton.png" alt="Phyton">
+                                    </div>
+                                </div>
+                                <div class="demiCart borderTop"> 
+                                    <div class="txtTech">
+                                        <p> Phyton </p>
+                                    </div>
+                                    <div class="barTech">
+                                        <progress value="5" max="100" >5 %</progress> 
+                                </div>
+                                </div>
+                            </div>
+                            <div class="carteTech">
+                                <div class="demiCart"> 
+                                    <div class="cartIco"> 
+                                        <img class="image" src="./img/java.png" alt="java">
+                                    </div>
+                                </div>
+                                <div class="demiCart borderTop"> 
+                                    <div class="txtTech">
+                                        <p> Java </p>
+                                    </div>
+                                    <div class="barTech">
+                                        <progress value="75" max="100" >75 %</progress> 
+                                </div>
+                                </div>
+                            </div>
+                            <div class="carteTech">
+                                <div class="demiCart"> 
+                                    <div class="cartIco"> 
+                                        <img class="image" src="./img/system.png" alt="OS">
+                                    </div>
+                                </div>
+                                <div class="demiCart borderTop"> 
+                                    <div class="txtTech">
+                                        <p> System </p>
+                                    </div>
+                                    <div class="barTech">
+                                        <progress value="80" max="100" >80 %</progress> 
+                                </div>
+                                </div>
+                            </div>
+                            
+                        </div>                    
+                    </div>
+                    <div class="expTech">
+                        <div class="techTitre" id="Langues">
+                            <h2 >Langues</h2>
+                        </div>
+                        <div class="Tech">
+                            <div class="carteTech">
+                                <div class="demiCart"> 
+                                    <div class="cartIco"> 
+                                        <img class="image" src="./img/be.png" alt="Be">
+                                    </div>
+                                </div>
+                                <div class="demiCart borderTop"> 
+                                    <div class="txtTech">
+                                        <p> Francais </p>
+                                    </div>
+                                    <div class="barTech">
+                                        <progress value="90" max="100" >90 %</progress> 
+                                </div>
+                                </div>
+                            </div>
+                            <div class="carteTech">
+                                <div class="demiCart"> 
+                                    <div class="cartIco"> 
+                                        <img class="image" src="./img/anglais.png" alt="EN">
+                                    </div>
+                                </div>
+                                <div class="demiCart borderTop"> 
+                                    <div class="txtTech">
+                                        <p> Anglais </p>
+                                    </div>
+                                    <div class="barTech">
+                                        <progress value="40" max="100" >40 %</progress> 
+                                </div>
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>
+                    <div class="expTech">
+                        <div class="techTitre" id="Loisirs">
+                            <h2 >Loisirs</h2>
+                        </div>
+                        <div class="TechLois">
+                            <div class="carteTech" >
+                                <div class="LoiCart"> 
+                                    <div class="cartIco"> 
+                                        <img class="image" src="./img/foot.png" alt="foot">
+                                    </div>
+                                </div>
+                                <div class="LoiCart2 borderTop"> 
+                                    <div id="txtLoi">
+                                        <p> Foot </p>
+                                    </div>
+                                </div>
+                            </div>
+                                                
+                        </div>
+                    </div>
                 </div> 
             </div>
 
         </div>
-    </div>
+    </section>
 
 </body>
 </html>
