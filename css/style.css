@@ -605,7 +605,7 @@
     #nav{
         display: flex;
         width: 100%;
-        height: 80px;
+        height: 8vh;
         background-color: #A6A4A5;
     }
 /* ---------------------------------- */
@@ -667,7 +667,7 @@
     .contenu{
         display: flex;
         width: 100%;
-        height: 90vh;
+        height: 92vh;
     }
     .profil{
         display: flex;
